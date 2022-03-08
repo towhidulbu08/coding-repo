@@ -1,0 +1,39 @@
+.orange{
+    color: orange;
+}
+h1{
+    font-size: 60px;
+}
+body{
+    font-family:  'Poppins', sans-serif;
+    margin: 0;
+}
+.half-width{
+    width: 50%;
+    padding-left: 4%;
+    padding-right: 2%;
+}
+.flex{
+    display: flex;
+}
+.img{
+    width: 80%;
+}
+.hire{
+    text-decoration: none;
+    background-image: linear-gradient(pink,tomato);
+    border-radius: 5px;
+    padding: 10px 35px;
+    color: white;
+    font-weight: 800;
+}
+.top-button{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.flexible{
+    display: flex;
+}
+.img2{
+    width: 74%;
+}
