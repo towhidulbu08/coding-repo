@@ -1,20 +1,24 @@
 .orange{
     color: orange;
 }
-h1{
+.heading{
     font-size: 60px;
+}
+.heading2{
+    font-size: 40px;
 }
 body{
     font-family:  'Poppins', sans-serif;
     margin: 0;
 }
 .half-width{
-    width: 50%;
+    width: 40%;
     padding-left: 4%;
-    padding-right: 2%;
+    padding-right: 4%;
 }
 .flex{
     display: flex;
+    margin-bottom: 90px;
 }
 .img{
     width: 80%;
@@ -31,9 +35,45 @@ body{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.flexible{
-    display: flex;
-}
 .img2{
     width: 74%;
 }
+.dream-bg{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.item{
+    box-shadow: 10px 10px 40px gray;
+     width: 60%;
+     padding-left: 35px;
+     padding-right: 35px;
+     padding-top: 10px;
+     padding-bottom: 50px;
+     margin-left: 4%;
+     margin-right: 4%;
+     border-radius: 10px;
+     border-left: 10px;
+     }
+     #islam{
+        border-left: 7px solid;
+        border-image: linear-gradient(blue,cyan);
+        border-image-slice: 1;
+     }
+     #tamim{
+        border-left: 7px solid;
+        border-image: linear-gradient(tomato,orange);
+        border-image-slice: 1;
+     }
+.pink{
+    color: orange;
+}
+footer p{
+    text-align: center;
+}
+
